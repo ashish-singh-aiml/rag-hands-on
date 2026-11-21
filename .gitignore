@@ -224,3 +224,4 @@ __marimo__/
 
 # Hidden files and directories
 hidden/
+faiss_index/
