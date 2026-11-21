@@ -1,0 +1,10 @@
+# langgraph-supervisor
+langchain
+langchain-openai
+langchain-community
+langgraph
+python-dotenv
+openai
+ipykernel
+pypdf
+faiss-cpu

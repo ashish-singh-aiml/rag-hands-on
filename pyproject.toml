@@ -1,0 +1,27 @@
+[project]
+name = "rag-hands-on"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ashish Kumar Singh", email = "mr.ashish21k@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "faiss-cpu>=1.16.0",
+    "ipykernel>=7.4.0",
+    "langchain>=1.5.2",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.8.5",
+    "langgraph>=1.2.24",
+    "openai>=3.57.0",
+    "pypdf>=7.1.1",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+rag-hands-on = "rag_hands_on:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
